@@ -95,7 +95,7 @@ def load_task_json() -> dict:
         return {}
 
 
-def save_task_json(tasks: dict):
+def save_task_json(tasks: dict) -> None:
     """Save to tasks JSON."""
     with open(TASK_PATH, 'w') as f:
         json.dump(tasks, f, indent=2)
