@@ -5,7 +5,6 @@ description = "Yet another Linux to-do-list app."
 readme = "README.md"
 license = "Apache-2.0"
 authors = [{ name = "Ryan A. Rashidian" }]
-dependencies = ["platformdirs"]
 
 [project.scripts]
 yalta = "yalta.__main__:main"
