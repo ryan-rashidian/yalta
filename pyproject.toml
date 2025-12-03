@@ -1,0 +1,17 @@
+[project]
+name = "YALTA"
+version = "1.0.0"
+description = "Yet another Linux to-do-list app."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Ryan A. Rashidian" }]
+dependencies = ["platformdirs"]
+
+[project.scripts]
+yalta = "yalta.__main__:main"
+
+[tool.ruff]
+line-length = 79
+target-version = "py313"
+lint.select = ["E", "F", "W", "I", "B"]
+
