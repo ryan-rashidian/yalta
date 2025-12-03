@@ -12,7 +12,7 @@ But seriously: This project is for fun/learning purposes, not intended for suppo
 
 ## Installation
 
-This app includes a feature that uses the `notify-send` utility - which requires a notification daemon to be installed and enabled on your system. It also uses the `date` utility, which should come pre-installed with most Linux distributions.
+This app includes a feature that uses the `notify-send` utility - which requires a notification daemon to be installed and enabled on your system. It also uses the `date` utility - which should come pre-installed with most Linux distributions.
 
 ### Install with pipx (recommended)
 
