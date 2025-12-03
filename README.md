@@ -27,10 +27,6 @@ pipx install git+https://github.com/ryan-rashidian/yalta.git
 git clone https://github.com/ryan-rashidian/yalta.git
 cd yalta
 
-# Create a new venv
-python -m venv .venv
-source .venv/bin/activate
-
 # Make the script executable
 chmod +x yalta_script.py
 
